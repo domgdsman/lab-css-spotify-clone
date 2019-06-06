@@ -1,8 +1,148 @@
 /*
-Colors:
-
+Colors: #fff
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: 
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 5vh;
+  padding: 1vh;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  height: 100%;
+}
+nav ul {
+  display: flex;
+}
+
+nav a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 2.5vh;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 0 1.5vw;
+}
+
+header {
+  display: flex;
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 10vh;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4vh;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h3 {
+  color: #1a1a1a;
+  font-size: 5vh;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #00b172;
+  text-align: center;
+  font-weight: normal;
+  text-underline-position: 10px;
+}
+
+h4 {
+  color: #00b172;
+  font-size: 3vh;
+}
+
+#section-one {
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+}
+
+.three-blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5vh;
+}
+
+#section-one .three-blocks div {
+  width: 30%;
+  height: 60%;
+  text-align: center;
+}
+
+#section-one img {
+  height: 50%;
+}
+
+#section-one p {
+  font-size: 2.5vh;
+  font-weight: lighter;
+}
+
+#section-two {
+  display: flex;
+  background-color: #00b172;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+  height: 80vh;
+  margin: 1em;
+  padding: 2em 0;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+#yeezy {
+  color: #fff;
+  text-decoration-color: #fff;
+  text-align: unset;
+}
+
+#section-two h4 {
+  color: #fff;
+}
+
+#spotify-white {
+  height: 15vh;
+  margin: 5vh;
+  padding: 0;
+}
+#kanye {
+  height: 65vh;
+  margin-top: 8vh;
+}
+
+#section-two p {
+  color: #fff;
+  font-size: 2.5vh;
+  font-weight: lighter;
+}
